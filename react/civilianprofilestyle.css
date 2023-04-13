@@ -1,0 +1,124 @@
+
+
+.a-civi-profile-head {
+    background-color: #2E1A47;
+}
+
+.a-civi-font-box {
+    font-family: 'Nunito-Light', sans-serif;
+    src: local(Nunito-Light), url(../../assets/fonts/Nunito-Light.woff) format(woff);
+    font-weight: 600;
+    margin-top: 25px;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.a-civi-btn-group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.a-civi-btn-color-font {
+    color: white;
+    box-shadow: 0px 2px 6px 0px #2e1a47;
+    margin: 7px 0 7px -10px;
+    background-color: #2e1a47;
+    border-color: #2e1a47;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px transparent;
+    padding: 0.45rem 0.9rem;
+    font-size: 0.9rem;
+    border-radius: 0.15rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+}
+
+.a-civi-mini-cont {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+    
+}
+
+.a-civi-card {
+    width: 260px;
+    height: 390px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 12px 5px 12px;
+    border-color: lightgray;
+    border-style: inset;
+    box-shadow: 2px 2px 2px 2px #2e1a47;
+}
+.a-civi-card-bg {
+    
+    height: 100%;
+    margin: 5px 5px 5px 5px;
+}
+
+.a-col-xxl-4 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+
+.a-viewpro {
+    background-color: #2E1A47;
+    color: whitesmoke
+}
+
+.a-civi-hide, .a-hidepro {
+    background-color: red;
+}
+.a-civi-profile-private {
+    color: red;
+}
+
+.a-civi-profile-public {
+    color : green;
+}
+.a-civi-reveal {
+    background-color: green;
+}
+
+.a-civi-card-title {
+    color: white;
+}
+
+.a-react-datepicker__aria-live {
+    display: none;
+}
+
+.a-lvl-one {
+    max-width: 95%;
+}
+.a-lvl-two, .a-lvl-three {
+    width: 100%;
+}
+
+#kard {
+    width: 66.6%;
+}
+
+.a-civi-form-input {
+    display: block;
+    width: 100%;
+    padding: 0.45rem 0.9rem;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--ct-input-color);
+    background-color: var(--ct-input-bg);
+    background-clip: padding-box;
+    border: 1px solid var(--ct-input-border-color);
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
