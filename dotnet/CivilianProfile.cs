@@ -1,4 +1,4 @@
-﻿using Sabio.Models.Domain.Users;
+﻿using Hasty.Models.Domain.Users;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Sabio.Models.Domain.CivilianProfiles
+namespace Hasty.Models.Domain.CivilianProfiles
 {
     public class CivilianProfile
     {
