@@ -1,16 +1,16 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Sabio.Models;
-using Sabio.Models.Domain.CivilianProfiles;
-using Sabio.Models.Requests.CivilianProfiles;
-using Sabio.Services;
-using Sabio.Services.Interfaces;
-using Sabio.Web.Controllers;
-using Sabio.Web.Models.Responses;
+using Hasty.Models;
+using Hasty.Models.Domain.CivilianProfiles;
+using Hasty.Models.Requests.CivilianProfiles;
+using Hasty.Services;
+using Hasty.Services.Interfaces;
+using Hasty.Web.Controllers;
+using Hasty.Web.Models.Responses;
 using System;
 
-namespace Sabio.Web.Api.Controllers
+namespace Hasty.Web.Api.Controllers
 {
     [Route("api/profiles/civilian")]
     [ApiController]
