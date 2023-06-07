@@ -1,11 +1,11 @@
-﻿using Sabio.Data;
-using Sabio.Data.Providers;
-using Sabio.Models;
-using Sabio.Models.Domain;
-using Sabio.Models.Domain.CivilianProfiles;
-using Sabio.Models.Domain.Users;
-using Sabio.Models.Requests.CivilianProfiles;
-using Sabio.Services.Interfaces;
+﻿using Hasty.Data;
+using Hasty.Data.Providers;
+using Hasty.Models;
+using Hasty.Models.Domain;
+using Hasty.Models.Domain.CivilianProfiles;
+using Hasty.Models.Domain.Users;
+using Hasty.Models.Requests.CivilianProfiles;
+using Hasty.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -14,7 +14,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Services
+namespace Hasty.Services
 {
     public class CivilianProfileService : ICivilianProfileService
     {
