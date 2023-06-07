@@ -1,9 +1,9 @@
-﻿using Sabio.Models;
-using Sabio.Models.Domain.CivilianProfiles;
-using Sabio.Models.Domain.MilitaryProfile;
-using Sabio.Models.Requests.CivilianProfiles;
+﻿using Hasty.Models;
+using Hasty.Models.Domain.CivilianProfiles;
+using Hasty.Models.Domain.MilitaryProfile;
+using Hasty.Models.Requests.CivilianProfiles;
 
-namespace Sabio.Services.Interfaces
+namespace Hasty.Services.Interfaces
 {
     public interface ICivilianProfileService
     {
