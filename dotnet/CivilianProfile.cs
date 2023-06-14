@@ -1,20 +1,10 @@
-﻿using Hasty.Models.Domain.Users;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-
-namespace Hasty.Models.Domain.CivilianProfiles
+public class CivilianProfile
 {
-    public class CivilianProfile
-    {
-        public int Id { get; set; }
-        public BaseUser User { get; set; }
-        public int MonthlyIncome { get; set; }
-        public DateTime MoveInDate { get; set; }
-        public DateTime DateModified { get; set; }
-    }
+    public int Id { get; set; }
+    public BaseUser User { get; set; }
+    public int MonthlyIncome { get; set; }
+    public DateTime MoveInDate { get; set; }
+    public DateTime DateModified { get; set; }
 }
+
